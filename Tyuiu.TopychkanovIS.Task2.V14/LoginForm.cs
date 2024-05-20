@@ -78,10 +78,9 @@ namespace Tyuiu.TopychkanovIS.Task2.V14
 
                 if (reader.HasRows)
                 {
-                    // Open main application form
-                    //MainForm mainForm = new MainForm();
-                    //mainForm.Show();
-                    //this.Hide();
+                    MainForm mainForm = new MainForm();
+                    mainForm.Show();
+                    this.Hide();
                 }
                 else
                 {
